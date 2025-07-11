@@ -5,11 +5,110 @@
   font-family: Inter, Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
+  color: 000000;
   /*font-family: "Noto Serif", "Times New Roman", serif;*/
 }
 
 .header {
+  background-color: ffffff;
+  background-image: url(../images/background_header.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  display: flex;
+  flex-direction: column;
 }
 
-.footer {
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 30px;
+  height: 39px;
+  width: 105px;
+}
+
+.nav__links {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  font-weight: 500;
+  margin-right: 80px;
+  column-gap: 20px;
+}
+
+.nav__link {
+}
+
+.header__title {
+  flex-direction: column;
+  max-width: 709px;
+  padding-left: 80px;
+  padding-top: 183px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 72px;
+  font-size: 58px;
+  letter-spacing: -1px;
+  margin: 0;
+}
+
+.header__span-accent {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  color: #2f80ed;
+  font-weight: normal;
+}
+
+.header__description {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 683px;
+  padding-top: 28px;
+  padding-left: 80px;
+  margin: 0;
+}
+
+.header__image {
+  height: 646px;
+  width: 568px;
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  bottom: 0;
+  left: 0;
+}
+
+.header__footer {
+  color: #6f6f6f;
+  margin-top: auto;
+  padding-bottom: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.header__footer_info {
+  line-height: 0;
+  margin: 0;
+}
+
+.header__paragraph {
+  display: flex;
+  justify-content: end;
+  margin: 0;
 }
