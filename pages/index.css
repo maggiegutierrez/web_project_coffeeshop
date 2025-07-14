@@ -101,20 +101,17 @@
   align-items: end;
   color: #6f6f6f;
   margin-top: auto;
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-bottom: 40px;
+  padding: 0 80px 40px 80px;
 }
 
-.header__footer_info {
-  line-height: 0;
-  margin: 0;
+.header__footer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
 }
 
 .header__paragraph {
-  display: flex;
-  justify-content: end;
-  margin: 0;
+  margin: 0%;
 }
 
 .content {
@@ -194,6 +191,6 @@
   line-height: 30px;
 }
 
-.recipes__video-caption_paragraph {
+.recipes__video-caption-paragraph {
   margin: 0%;
 }
