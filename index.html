@@ -39,7 +39,7 @@
             class="nav__logo"
           />
           <ul class="nav__links">
-            <li><a class="nav__link">Recetas</a></li>
+            <li><a class="nav__link" href="#recipes">Recetas</a></li>
             <li><a class="nav__link">Reservar una mesa</a></li>
             <li><a class="nav__link">Contactos</a></li>
           </ul>
@@ -57,7 +57,7 @@
           src="./images/inside_coffee_shop.png"
           alt="coffee-shop-Triple-Peaks"
         />
-        <footer class="header__footer">
+        <div class="header__footer">
           <div class="header__footer_info">
             <p>Horario:</p>
             <p>Lunes a Viernes (de 10:00h a 19:00h)</p>
@@ -66,10 +66,50 @@
           <p class="header__paragraph">
             Avenida del Éxito 200, Ciudad Triple Peaks
           </p>
-        </footer>
+        </div>
       </header>
       <main class="content">
-        <section class="recipes"></section>
+        <section class="recipes" id="recipes">
+          <h2 class="recipes__title">Recetas</h2>
+          <p class="recipes__subtitle">
+            Echa un viztazo a las recetas que hemos<br />
+            reunido para que elabores tus propias bebidas.
+          </p>
+          <div class="recipes__videos">
+            <div class="recipes__video-item">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/ZcZMGx15QBU?si=TZsdm5joWWTEmDfM"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <div class="recipes__video-caption">
+                <p class="recipes__video-caption_paragraph">
+                  Ser barista en casa
+                </p>
+                <p class="recipes__video-caption_paragraph">~13:38min</p>
+              </div>
+            </div>
+            <div class="recipes__video-item">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/ZgIVfU0xBjA?si=dbA751nfKMwdIVgA"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <div class="recipes__video-caption">
+                <p class="recipes__video-caption_paragraph">
+                  Latte sin maquina
+                </p>
+                <p class="recipes__video-caption_paragraph">~17:35min</p>
+              </div>
+            </div>
+          </div>
+        </section>
         <section class="reservation"></section>
       </main>
       <footer class="footer"></footer>
