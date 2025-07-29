@@ -203,8 +203,6 @@
   background-position: center;
   position: sticky;
   height: 100vh;
-  min-height: 720px;
-  max-height: 800px;
   display: flex;
   flex-direction: column;
 }
@@ -287,7 +285,8 @@
 }
 
 .form__label--checkbox_input:checked {
-  background-color: #2f80ed;
-  background-image: url(../images/check.svg);
+  background: url(../images/check.svg);
+  background-size: 60%;
+  accent-color: #2f80ed;
   color: #ffffff;
 }
