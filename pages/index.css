@@ -117,11 +117,6 @@
   color: #838383;
 }
 
-.content {
-  /*flex-direction: column;
-  justify-content: center;*/
-}
-
 .recipes {
   color: #ffffff;
   padding-top: 100px;
@@ -188,14 +183,12 @@
   background-size: cover;
   background-position: center;
   position: sticky;
-  height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
 .reservation__title {
-  margin: 100px;
-  margin-bottom: 80px;
+  margin: 100px 0px 80px;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -212,6 +205,7 @@
 .form__fieldset {
   display: flex;
   flex-direction: column;
+  border: none;
 }
 
 .form__label {
