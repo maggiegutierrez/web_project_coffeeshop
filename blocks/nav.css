@@ -1,0 +1,31 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  position: relative;
+  padding-top: 30px;
+  padding-left: 30px;
+  margin: 0px;
+  height: 39px;
+  width: 105px;
+}
+
+.nav__links {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  font-weight: 500;
+  padding-right: 80px;
+  padding-top: 30px;
+  padding-left: 0px;
+  margin: 0px;
+  column-gap: 20px;
+}
+
+.nav__link {
+  margin: 0px;
+  color: inherit;
+  text-decoration: none;
+}
